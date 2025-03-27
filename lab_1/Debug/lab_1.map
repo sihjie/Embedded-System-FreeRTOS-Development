@@ -4412,45 +4412,45 @@ LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x00000000     0xdce0
- .debug_info    0x00000000      0xf15 ./Core/Src/main.o
- .debug_info    0x00000f15      0x269 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_info    0x0000117e      0xbee ./Core/Src/stm32f4xx_hal_timebase_tim.o
- .debug_info    0x00001d6c      0x6ab ./Core/Src/stm32f4xx_it.o
- .debug_info    0x00002417      0x512 ./Core/Src/system_stm32f4xx.o
- .debug_info    0x00002929       0x30 ./Core/Startup/startup_stm32f407vgtx.o
- .debug_info    0x00002959      0x944 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_info    0x0000329d      0xd8c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_info    0x00004029      0x6c3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_info    0x000046ec      0x8af ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_info    0x00004f9b     0x299d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_info    0x00007938     0x14db ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_info    0x00008e13      0x2af ./FreeRTOS/list.o
- .debug_info    0x000090c2     0x1740 ./FreeRTOS/queue.o
- .debug_info    0x0000a802     0x1e4f ./FreeRTOS/tasks.o
- .debug_info    0x0000c651      0xdec ./FreeRTOS/timers.o
- .debug_info    0x0000d43d      0x4de ./FreeRTOS/portable/ARM_CM4F/port.o
- .debug_info    0x0000d91b      0x3c5 ./FreeRTOS/portable/MemMang/heap_4.o
+.debug_info     0x00000000     0xdcd6
+ .debug_info    0x00000000      0xf0b ./Core/Src/main.o
+ .debug_info    0x00000f0b      0x269 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_info    0x00001174      0xbee ./Core/Src/stm32f4xx_hal_timebase_tim.o
+ .debug_info    0x00001d62      0x6ab ./Core/Src/stm32f4xx_it.o
+ .debug_info    0x0000240d      0x512 ./Core/Src/system_stm32f4xx.o
+ .debug_info    0x0000291f       0x30 ./Core/Startup/startup_stm32f407vgtx.o
+ .debug_info    0x0000294f      0x944 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_info    0x00003293      0xd8c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_info    0x0000401f      0x6c3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_info    0x000046e2      0x8af ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_info    0x00004f91     0x299d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_info    0x0000792e     0x14db ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_info    0x00008e09      0x2af ./FreeRTOS/list.o
+ .debug_info    0x000090b8     0x1740 ./FreeRTOS/queue.o
+ .debug_info    0x0000a7f8     0x1e4f ./FreeRTOS/tasks.o
+ .debug_info    0x0000c647      0xdec ./FreeRTOS/timers.o
+ .debug_info    0x0000d433      0x4de ./FreeRTOS/portable/ARM_CM4F/port.o
+ .debug_info    0x0000d911      0x3c5 ./FreeRTOS/portable/MemMang/heap_4.o
 
-.debug_abbrev   0x00000000     0x2635
- .debug_abbrev  0x00000000      0x2f3 ./Core/Src/main.o
- .debug_abbrev  0x000002f3       0xd8 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_abbrev  0x000003cb      0x1f4 ./Core/Src/stm32f4xx_hal_timebase_tim.o
- .debug_abbrev  0x000005bf      0x17d ./Core/Src/stm32f4xx_it.o
- .debug_abbrev  0x0000073c      0x11a ./Core/Src/system_stm32f4xx.o
- .debug_abbrev  0x00000856       0x24 ./Core/Startup/startup_stm32f407vgtx.o
- .debug_abbrev  0x0000087a      0x214 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_abbrev  0x00000a8e      0x31d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_abbrev  0x00000dab      0x1d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_abbrev  0x00000f7f      0x2b7 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_abbrev  0x00001236      0x278 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_abbrev  0x000014ae      0x283 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_abbrev  0x00001731       0xf5 ./FreeRTOS/list.o
- .debug_abbrev  0x00001826      0x352 ./FreeRTOS/queue.o
- .debug_abbrev  0x00001b78      0x37e ./FreeRTOS/tasks.o
- .debug_abbrev  0x00001ef6      0x2de ./FreeRTOS/timers.o
- .debug_abbrev  0x000021d4      0x25c ./FreeRTOS/portable/ARM_CM4F/port.o
- .debug_abbrev  0x00002430      0x205 ./FreeRTOS/portable/MemMang/heap_4.o
+.debug_abbrev   0x00000000     0x2636
+ .debug_abbrev  0x00000000      0x2f4 ./Core/Src/main.o
+ .debug_abbrev  0x000002f4       0xd8 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_abbrev  0x000003cc      0x1f4 ./Core/Src/stm32f4xx_hal_timebase_tim.o
+ .debug_abbrev  0x000005c0      0x17d ./Core/Src/stm32f4xx_it.o
+ .debug_abbrev  0x0000073d      0x11a ./Core/Src/system_stm32f4xx.o
+ .debug_abbrev  0x00000857       0x24 ./Core/Startup/startup_stm32f407vgtx.o
+ .debug_abbrev  0x0000087b      0x214 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_abbrev  0x00000a8f      0x31d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_abbrev  0x00000dac      0x1d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_abbrev  0x00000f80      0x2b7 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_abbrev  0x00001237      0x278 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_abbrev  0x000014af      0x283 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_abbrev  0x00001732       0xf5 ./FreeRTOS/list.o
+ .debug_abbrev  0x00001827      0x352 ./FreeRTOS/queue.o
+ .debug_abbrev  0x00001b79      0x37e ./FreeRTOS/tasks.o
+ .debug_abbrev  0x00001ef7      0x2de ./FreeRTOS/timers.o
+ .debug_abbrev  0x000021d5      0x25c ./FreeRTOS/portable/ARM_CM4F/port.o
+ .debug_abbrev  0x00002431      0x205 ./FreeRTOS/portable/MemMang/heap_4.o
 
 .debug_aranges  0x00000000      0xe70
  .debug_aranges

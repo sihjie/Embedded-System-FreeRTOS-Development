@@ -26,17 +26,17 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/FreeRTOS.h \
- D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/FreeRTOSConfig.h \
- D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/projdefs.h \
- D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/portable.h \
- D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/deprecated_definitions.h \
- D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/portable/ARM_CM4F/portmacro.h \
- D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/mpu_wrappers.h \
- D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/task.h \
- D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/list.h \
- D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/queue.h \
- D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/task.h
+ D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/FreeRTOS.h \
+ D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/FreeRTOSConfig.h \
+ D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/projdefs.h \
+ D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/portable.h \
+ D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/deprecated_definitions.h \
+ D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/portable/ARM_CM4F/portmacro.h \
+ D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/mpu_wrappers.h \
+ D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/task.h \
+ D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/list.h \
+ D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/queue.h \
+ D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/task.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -65,14 +65,14 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
-D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/FreeRTOS.h:
-D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/FreeRTOSConfig.h:
-D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/projdefs.h:
-D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/portable.h:
-D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/deprecated_definitions.h:
-D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/portable/ARM_CM4F/portmacro.h:
-D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/mpu_wrappers.h:
-D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/task.h:
-D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/list.h:
-D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/queue.h:
-D:/LSJ_embeded\ system/workspace/lab_0/FreeRTOS/include/task.h:
+D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/FreeRTOS.h:
+D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/FreeRTOSConfig.h:
+D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/projdefs.h:
+D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/portable.h:
+D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/deprecated_definitions.h:
+D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/portable/ARM_CM4F/portmacro.h:
+D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/mpu_wrappers.h:
+D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/task.h:
+D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/list.h:
+D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/queue.h:
+D:/LSJ_embeded\ system/workspace/lab_1/FreeRTOS/include/task.h:

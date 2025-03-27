@@ -194,56 +194,6 @@ void LEDTask_App(void *pvParameters){
 	}
 }
 
-//void LEDTask_App(void *pvParameters)
-//{
-//	unsigned int led_state = 1;
-//	for(;;)
-//	{
-//		while(led_state==0){
-//			// ORANGE_LED 2 second ON
-//			HAL_GPIO_WritePin(ORANGE_LED_GPIO_Port, GPIO_PIN_13, GPIO_PIN_SET); // ORANGE ON
-//			HAL_GPIO_WritePin(RED_LED_GPIO_Port, GPIO_PIN_14, GPIO_PIN_RESET); // RED OFF
-//			HAL_GPIO_WritePin(GREEN_LED_GPIO_Port, GPIO_PIN_12, GPIO_PIN_RESET); // GREEN OFF
-//			vTaskDelay(2000);
-//			xQueueReceive(MsgQueue, &led_state, 0);
-//			if(led_state==1) break;
-//			// ORANGE_LED 2 second OFF
-//			HAL_GPIO_WritePin(ORANGE_LED_GPIO_Port, GPIO_PIN_13, GPIO_PIN_RESET);
-//			vTaskDelay(2000);
-//			xQueueReceive(MsgQueue, &led_state, 0);
-//			if(led_state==1) break;
-//		}
-//
-//		while(led_state==1){
-//			// RED 1 SEC
-//			HAL_GPIO_WritePin(RED_LED_GPIO_Port, GPIO_PIN_14, GPIO_PIN_SET); // RED ON
-//			HAL_GPIO_WritePin(GREEN_LED_GPIO_Port, GPIO_PIN_12, GPIO_PIN_RESET); // GREEN OFF
-//			HAL_GPIO_WritePin(ORANGE_LED_GPIO_Port, GPIO_PIN_13, GPIO_PIN_RESET); // ORANGE OFF
-//			vTaskDelay(1000);
-//
-//			xQueueReceive(MsgQueue, &led_state, 0);
-//			if(led_state==0) break;
-//
-//			// ORANGE 1 SEC
-//			HAL_GPIO_WritePin(ORANGE_LED_GPIO_Port, GPIO_PIN_13, GPIO_PIN_SET); // ORANGE ON
-//			HAL_GPIO_WritePin(RED_LED_GPIO_Port, GPIO_PIN_14, GPIO_PIN_RESET); // RED OFF
-//			HAL_GPIO_WritePin(GREEN_LED_GPIO_Port, GPIO_PIN_12, GPIO_PIN_RESET); // GREEN OFF
-//			vTaskDelay(1000);
-//
-//			xQueueReceive(MsgQueue, &led_state, 0);
-//			if(led_state==0) break;
-//
-//			// GREEN 1 SEC
-//			HAL_GPIO_WritePin(GREEN_LED_GPIO_Port, GPIO_PIN_12, GPIO_PIN_SET); // GREEN ON
-//			HAL_GPIO_WritePin(ORANGE_LED_GPIO_Port, GPIO_PIN_13, GPIO_PIN_RESET); // ORANGE OFF
-//			HAL_GPIO_WritePin(RED_LED_GPIO_Port, GPIO_PIN_14, GPIO_PIN_RESET); // RED OFF
-//			vTaskDelay(1000);
-//
-//			xQueueReceive(MsgQueue, &led_state, 0);
-//			if(led_state==0) break;
-//		}
-//	}
-//}
 
 /**
   * @brief System Clock Configuration
