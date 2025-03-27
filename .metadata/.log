@@ -636,3 +636,89 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Shell.set
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-03-27 18:47:57.682
 !MESSAGE Indexed 'lab_2' (32 sources, 103 headers) in 7.41 sec: 8,115 declarations; 49,334 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-27 21:28:52.296
+!MESSAGE Indexed 'lab_2' (20 sources, 81 headers) in 4.47 sec: 4,457 declarations; 19,240 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0084%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-27 21:32:29.184
+!MESSAGE Indexed 'lab_2' (28 sources, 100 headers) in 5.01 sec: 6,379 declarations; 27,729 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0059%)
+
+!ENTRY org.eclipse.remote.console 4 0 2025-03-27 22:01:20.385
+!MESSAGE Error opening \\.\COM5 (5)
+!STACK 0
+java.io.IOException: Error opening \\.\COM5 (5)
+	at org.eclipse.cdt.serial.SerialPort.open0(Native Method)
+	at org.eclipse.cdt.serial.SerialPort.open(SerialPort.java:316)
+	at org.eclipse.remote.serial.core.SerialPortCommandShell.<init>(SerialPortCommandShell.java:34)
+	at org.eclipse.remote.serial.core.SerialPortConnection.getCommandShell(SerialPortConnection.java:97)
+	at org.eclipse.remote.internal.console.TerminalConsoleConnector$1.run(TerminalConsoleConnector.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.remote.console 4 4 2025-03-27 22:01:27.937
+!MESSAGE Error reading from port (22)
+!STACK 0
+java.io.IOException: Error reading from port (22)
+	at org.eclipse.cdt.serial.SerialPort.read1(Native Method)
+	at org.eclipse.cdt.serial.SerialPort$1.read(SerialPort.java:108)
+	at java.base/java.io.InputStream.read(InputStream.java:220)
+	at org.eclipse.remote.internal.console.TerminalConsoleConnector$OutThread.run(TerminalConsoleConnector.java:58)
+
+!ENTRY org.eclipse.remote.console 4 0 2025-03-27 22:10:27.117
+!MESSAGE Error opening \\.\COM5 (5)
+!STACK 0
+java.io.IOException: Error opening \\.\COM5 (5)
+	at org.eclipse.cdt.serial.SerialPort.open0(Native Method)
+	at org.eclipse.cdt.serial.SerialPort.open(SerialPort.java:316)
+	at org.eclipse.remote.serial.core.SerialPortCommandShell.<init>(SerialPortCommandShell.java:34)
+	at org.eclipse.remote.serial.core.SerialPortConnection.getCommandShell(SerialPortConnection.java:97)
+	at org.eclipse.remote.internal.console.TerminalConsoleConnector$1.run(TerminalConsoleConnector.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.remote.console 4 4 2025-03-27 22:10:35.098
+!MESSAGE Error reading from port (22)
+!STACK 0
+java.io.IOException: Error reading from port (22)
+	at org.eclipse.cdt.serial.SerialPort.read1(Native Method)
+	at org.eclipse.cdt.serial.SerialPort$1.read(SerialPort.java:108)
+	at java.base/java.io.InputStream.read(InputStream.java:220)
+	at org.eclipse.remote.internal.console.TerminalConsoleConnector$OutThread.run(TerminalConsoleConnector.java:58)
+
+!ENTRY org.eclipse.remote.console 4 0 2025-03-27 22:13:02.698
+!MESSAGE Error opening \\.\COM5 (5)
+!STACK 0
+java.io.IOException: Error opening \\.\COM5 (5)
+	at org.eclipse.cdt.serial.SerialPort.open0(Native Method)
+	at org.eclipse.cdt.serial.SerialPort.open(SerialPort.java:316)
+	at org.eclipse.remote.serial.core.SerialPortCommandShell.<init>(SerialPortCommandShell.java:34)
+	at org.eclipse.remote.serial.core.SerialPortConnection.getCommandShell(SerialPortConnection.java:97)
+	at org.eclipse.remote.internal.console.TerminalConsoleConnector$1.run(TerminalConsoleConnector.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.remote.console 4 4 2025-03-27 22:13:17.229
+!MESSAGE Error reading from port (22)
+!STACK 0
+java.io.IOException: Error reading from port (22)
+	at org.eclipse.cdt.serial.SerialPort.read1(Native Method)
+	at org.eclipse.cdt.serial.SerialPort$1.read(SerialPort.java:108)
+	at java.base/java.io.InputStream.read(InputStream.java:220)
+	at org.eclipse.remote.internal.console.TerminalConsoleConnector$OutThread.run(TerminalConsoleConnector.java:58)
+
+!ENTRY org.eclipse.remote.console 4 0 2025-03-27 22:14:06.857
+!MESSAGE Error opening \\.\COM5 (5)
+!STACK 0
+java.io.IOException: Error opening \\.\COM5 (5)
+	at org.eclipse.cdt.serial.SerialPort.open0(Native Method)
+	at org.eclipse.cdt.serial.SerialPort.open(SerialPort.java:316)
+	at org.eclipse.remote.serial.core.SerialPortCommandShell.<init>(SerialPortCommandShell.java:34)
+	at org.eclipse.remote.serial.core.SerialPortConnection.getCommandShell(SerialPortConnection.java:97)
+	at org.eclipse.remote.internal.console.TerminalConsoleConnector$1.run(TerminalConsoleConnector.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.remote.console 4 4 2025-03-27 22:14:10.038
+!MESSAGE Error reading from port (22)
+!STACK 0
+java.io.IOException: Error reading from port (22)
+	at org.eclipse.cdt.serial.SerialPort.read1(Native Method)
+	at org.eclipse.cdt.serial.SerialPort$1.read(SerialPort.java:108)
+	at java.base/java.io.InputStream.read(InputStream.java:220)
+	at org.eclipse.remote.internal.console.TerminalConsoleConnector$OutThread.run(TerminalConsoleConnector.java:58)
