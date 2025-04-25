@@ -1,0 +1,12 @@
+../Core/Src/main.c:86:6:MEMS_Write	1
+../Core/Src/main.c:92:6:MEMS_Read	1
+../Core/Src/main.c:99:6:LED_Task	2
+../Core/Src/main.c:112:6:Green_LED_Task	1
+../Core/Src/main.c:124:6:vHandlerTask	4
+../Core/Src/main.c:152:6:HAL_GPIO_EXTI_Callback	2
+../Core/Src/main.c:170:5:main	1
+../Core/Src/main.c:238:6:SystemClock_Config	3
+../Core/Src/main.c:285:13:MX_SPI1_Init	2
+../Core/Src/main.c:323:13:MX_GPIO_Init	1
+../Core/Src/main.c:467:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:484:6:Error_Handler	1
