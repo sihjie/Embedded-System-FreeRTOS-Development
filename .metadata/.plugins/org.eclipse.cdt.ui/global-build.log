@@ -1,0 +1,1271 @@
+17:26:05 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../FreeRTOS/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/MemMang/heap_4.d" -MT"FreeRTOS/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../FreeRTOS/portable/ARM_CM4F/port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/ARM_CM4F/port.d" -MT"FreeRTOS/portable/ARM_CM4F/port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/ARM_CM4F/port.o"
+arm-none-eabi-gcc "../FreeRTOS/croutine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/croutine.d" -MT"FreeRTOS/croutine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/croutine.o"
+arm-none-eabi-gcc "../FreeRTOS/event_groups.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/event_groups.d" -MT"FreeRTOS/event_groups.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/event_groups.o"
+arm-none-eabi-gcc "../FreeRTOS/list.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/list.d" -MT"FreeRTOS/list.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/list.o"
+arm-none-eabi-gcc "../FreeRTOS/queue.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/queue.d" -MT"FreeRTOS/queue.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/queue.o"
+arm-none-eabi-gcc "../FreeRTOS/stream_buffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/stream_buffer.d" -MT"FreeRTOS/stream_buffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/stream_buffer.o"
+arm-none-eabi-gcc "../FreeRTOS/tasks.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/tasks.d" -MT"FreeRTOS/tasks.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/tasks.o"
+In file included from ../FreeRTOS/event_groups.c:38:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:39:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   39 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/croutine.c:29:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:39:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   39 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/tasks.c:39:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:39:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   39 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/queue.c:37:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:39:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   39 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/stream_buffer.c:39:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:39:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   39 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/portable/MemMang/heap_4.c:44:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:39:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   39 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/portable/ARM_CM4F/port.c:34:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:39:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   39 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+../FreeRTOS/tasks.c: In function 'print_pcb':
+../FreeRTOS/tasks.c:436:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:42:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   41 | #include "stack_macros.h"
+  +++ |+#include <stdio.h>
+   42 | 
+../FreeRTOS/tasks.c:436:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:436:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../FreeRTOS/tasks.c:436:55: warning: format '%lx' expects argument of type 'long unsigned int', but argument 6 has type 'StackType_t *' {aka 'long unsigned int *'} [-Wformat=]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                   ~~~~^                                                                    ~~~~~~~~~~
+      |                                                       |                                                                     |
+      |                                                       long unsigned int                                                     StackType_t * {aka long unsigned int *}
+      |                                                   %-9ln
+../FreeRTOS/tasks.c:436:64: warning: format '%lx' expects argument of type 'long unsigned int', but argument 7 has type 'volatile StackType_t *' {aka 'volatile long unsigned int *'} [-Wformat=]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                           ~~~~~^                                                                       ~~~~~~~~~~~~~~~
+      |                                                                |                                                                        |
+      |                                                                long unsigned int                                                        volatile StackType_t * {aka volatile long unsigned int *}
+      |                                                           %-14ln
+make: *** [FreeRTOS/portable/MemMang/subdir.mk:19: FreeRTOS/portable/MemMang/heap_4.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [FreeRTOS/portable/ARM_CM4F/subdir.mk:19: FreeRTOS/portable/ARM_CM4F/port.o] Error 1
+make: *** [FreeRTOS/subdir.mk:37: FreeRTOS/croutine.o] Error 1
+../FreeRTOS/tasks.c:437:9: warning: implicit declaration of function 'HAL_UART_Transmit' [-Wimplicit-function-declaration]
+  437 |         HAL_UART_Transmit(&huart2,(uint8_t *)Monitor_data,strlen(Monitor_data),0xffff);
+      |         ^~~~~~~~~~~~~~~~~
+../FreeRTOS/tasks.c: In function 'Taskmonitor':
+../FreeRTOS/tasks.c:450:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  450 |         sprintf(Monitor_data,"|Name |Priority(Base/actual)                |pxStack |pxTopOfStack      |State |\n\r");
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:450:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+make: *** [FreeRTOS/subdir.mk:37: FreeRTOS/queue.o] Error 1
+make: *** [FreeRTOS/subdir.mk:37: FreeRTOS/stream_buffer.o] Error 1
+make: *** [FreeRTOS/subdir.mk:37: FreeRTOS/event_groups.o] Error 1
+make: *** [FreeRTOS/subdir.mk:37: FreeRTOS/tasks.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+17:27:18 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+17:27:19 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+17:27:20 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../FreeRTOS/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/MemMang/heap_4.d" -MT"FreeRTOS/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../FreeRTOS/portable/ARM_CM4F/port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/ARM_CM4F/port.d" -MT"FreeRTOS/portable/ARM_CM4F/port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/ARM_CM4F/port.o"
+arm-none-eabi-gcc "../FreeRTOS/croutine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/croutine.d" -MT"FreeRTOS/croutine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/croutine.o"
+arm-none-eabi-gcc "../FreeRTOS/event_groups.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/event_groups.d" -MT"FreeRTOS/event_groups.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/event_groups.o"
+arm-none-eabi-gcc "../FreeRTOS/queue.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/queue.d" -MT"FreeRTOS/queue.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/queue.o"
+arm-none-eabi-gcc "../FreeRTOS/stream_buffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/stream_buffer.d" -MT"FreeRTOS/stream_buffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/stream_buffer.o"
+arm-none-eabi-gcc "../FreeRTOS/tasks.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/tasks.d" -MT"FreeRTOS/tasks.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/tasks.o"
+arm-none-eabi-gcc "../FreeRTOS/timers.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/timers.d" -MT"FreeRTOS/timers.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/timers.o"
+In file included from ../FreeRTOS/portable/MemMang/heap_4.c:44:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   38 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/croutine.c:29:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   38 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/tasks.c:39:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   38 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/stream_buffer.c:39:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   38 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/event_groups.c:38:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   38 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/timers.c:37:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   38 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/queue.c:37:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   38 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+In file included from ../FreeRTOS/portable/ARM_CM4F/port.c:34:
+D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'TIM_HandleTypeDef'?
+   38 | UART_HandleTypeDef huart2;//for USART2
+      | ^~~~~~~~~~~~~~~~~~
+      | TIM_HandleTypeDef
+../FreeRTOS/tasks.c: In function 'print_pcb':
+../FreeRTOS/tasks.c:436:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:42:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   41 | #include "stack_macros.h"
+  +++ |+#include <stdio.h>
+   42 | 
+../FreeRTOS/tasks.c:436:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:436:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../FreeRTOS/tasks.c:436:55: warning: format '%lx' expects argument of type 'long unsigned int', but argument 6 has type 'StackType_t *' {aka 'long unsigned int *'} [-Wformat=]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                   ~~~~^                                                                    ~~~~~~~~~~
+      |                                                       |                                                                     |
+      |                                                       long unsigned int                                                     StackType_t * {aka long unsigned int *}
+      |                                                   %-9ln
+../FreeRTOS/tasks.c:436:64: warning: format '%lx' expects argument of type 'long unsigned int', but argument 7 has type 'volatile StackType_t *' {aka 'volatile long unsigned int *'} [-Wformat=]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                           ~~~~~^                                                                       ~~~~~~~~~~~~~~~
+      |                                                                |                                                                        |
+      |                                                                long unsigned int                                                        volatile StackType_t * {aka volatile long unsigned int *}
+      |                                                           %-14ln
+make: *** [FreeRTOS/subdir.mk:37: FreeRTOS/croutine.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [FreeRTOS/subdir.mk:37: FreeRTOS/timers.o] Error 1
+make: *** [FreeRTOS/subdir.mk:37: FreeRTOS/stream_buffer.o] Error 1
+../FreeRTOS/tasks.c:437:9: warning: implicit declaration of function 'HAL_UART_Transmit' [-Wimplicit-function-declaration]
+  437 |         HAL_UART_Transmit(&huart2,(uint8_t *)Monitor_data,strlen(Monitor_data),0xffff);
+      |         ^~~~~~~~~~~~~~~~~
+../FreeRTOS/tasks.c: In function 'Taskmonitor':
+../FreeRTOS/tasks.c:450:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  450 |         sprintf(Monitor_data,"|Name |Priority(Base/actual)                |pxStack |pxTopOfStack      |State |\n\r");
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:450:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+make: *** [FreeRTOS/portable/MemMang/subdir.mk:19: FreeRTOS/portable/MemMang/heap_4.o] Error 1
+make: *** [FreeRTOS/portable/ARM_CM4F/subdir.mk:19: FreeRTOS/portable/ARM_CM4F/port.o] Error 1
+make: *** [FreeRTOS/subdir.mk:37: FreeRTOS/queue.o] Error 1
+make: *** [FreeRTOS/subdir.mk:37: FreeRTOS/event_groups.o] Error 1
+make: *** [FreeRTOS/subdir.mk:37: FreeRTOS/tasks.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+17:35:51 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+17:35:52 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+17:35:53 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../FreeRTOS/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/MemMang/heap_4.d" -MT"FreeRTOS/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../FreeRTOS/portable/ARM_CM4F/port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/ARM_CM4F/port.d" -MT"FreeRTOS/portable/ARM_CM4F/port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/ARM_CM4F/port.o"
+arm-none-eabi-gcc "../FreeRTOS/croutine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/croutine.d" -MT"FreeRTOS/croutine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/croutine.o"
+arm-none-eabi-gcc "../FreeRTOS/event_groups.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/event_groups.d" -MT"FreeRTOS/event_groups.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/event_groups.o"
+arm-none-eabi-gcc "../FreeRTOS/queue.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/queue.d" -MT"FreeRTOS/queue.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/queue.o"
+arm-none-eabi-gcc "../FreeRTOS/stream_buffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/stream_buffer.d" -MT"FreeRTOS/stream_buffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/stream_buffer.o"
+arm-none-eabi-gcc "../FreeRTOS/tasks.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/tasks.d" -MT"FreeRTOS/tasks.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/tasks.o"
+arm-none-eabi-gcc "../FreeRTOS/timers.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/timers.d" -MT"FreeRTOS/timers.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/timers.o"
+../FreeRTOS/tasks.c: In function 'print_pcb':
+../FreeRTOS/tasks.c:436:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:42:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   41 | #include "stack_macros.h"
+  +++ |+#include <stdio.h>
+   42 | 
+../FreeRTOS/tasks.c:436:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:436:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../FreeRTOS/tasks.c:436:55: warning: format '%lx' expects argument of type 'long unsigned int', but argument 6 has type 'StackType_t *' {aka 'long unsigned int *'} [-Wformat=]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                   ~~~~^                                                                    ~~~~~~~~~~
+      |                                                       |                                                                     |
+      |                                                       long unsigned int                                                     StackType_t * {aka long unsigned int *}
+      |                                                   %-9ln
+../FreeRTOS/tasks.c:436:64: warning: format '%lx' expects argument of type 'long unsigned int', but argument 7 has type 'volatile StackType_t *' {aka 'volatile long unsigned int *'} [-Wformat=]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                           ~~~~~^                                                                       ~~~~~~~~~~~~~~~
+      |                                                                |                                                                        |
+      |                                                                long unsigned int                                                        volatile StackType_t * {aka volatile long unsigned int *}
+      |                                                           %-14ln
+../FreeRTOS/tasks.c: In function 'Taskmonitor':
+../FreeRTOS/tasks.c:450:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  450 |         sprintf(Monitor_data,"|Name |Priority(Base/actual)      |pxStack |pxTopOfStack      |State |\n\r");
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:450:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_timebase_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_timebase_tim.d" -MT"Core/Src/stm32f4xx_hal_timebase_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_timebase_tim.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./FreeRTOS/croutine.o:D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38: multiple definition of `huart2'; ./Core/Src/main.o:D:/LSJ_embeded system/workspace/lab_2/Debug/../Core/Src/main.c:43: first defined here
+C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./FreeRTOS/event_groups.o:D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38: multiple definition of `huart2'; ./Core/Src/main.o:D:/LSJ_embeded system/workspace/lab_2/Debug/../Core/Src/main.c:43: first defined here
+C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./FreeRTOS/queue.o:D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38: multiple definition of `huart2'; ./Core/Src/main.o:D:/LSJ_embeded system/workspace/lab_2/Debug/../Core/Src/main.c:43: first defined here
+C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./FreeRTOS/stream_buffer.o:D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38: multiple definition of `huart2'; ./Core/Src/main.o:D:/LSJ_embeded system/workspace/lab_2/Debug/../Core/Src/main.c:43: first defined here
+C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./FreeRTOS/tasks.o:D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38: multiple definition of `huart2'; ./Core/Src/main.o:D:/LSJ_embeded system/workspace/lab_2/Debug/../Core/Src/main.c:43: first defined here
+C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./FreeRTOS/timers.o:D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38: multiple definition of `huart2'; ./Core/Src/main.o:D:/LSJ_embeded system/workspace/lab_2/Debug/../Core/Src/main.c:43: first defined here
+C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./FreeRTOS/portable/ARM_CM4F/port.o:D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38: multiple definition of `huart2'; ./Core/Src/main.o:D:/LSJ_embeded system/workspace/lab_2/Debug/../Core/Src/main.c:43: first defined here
+C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./FreeRTOS/portable/MemMang/heap_4.o:D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include/task.h:38: multiple definition of `huart2'; ./Core/Src/main.o:D:/LSJ_embeded system/workspace/lab_2/Debug/../Core/Src/main.c:43: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:67: lab_2.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+17:41:43 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+17:41:45 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+17:41:46 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../FreeRTOS/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/MemMang/heap_4.d" -MT"FreeRTOS/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../FreeRTOS/portable/ARM_CM4F/port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/ARM_CM4F/port.d" -MT"FreeRTOS/portable/ARM_CM4F/port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/ARM_CM4F/port.o"
+arm-none-eabi-gcc "../FreeRTOS/croutine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/croutine.d" -MT"FreeRTOS/croutine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/croutine.o"
+arm-none-eabi-gcc "../FreeRTOS/event_groups.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/event_groups.d" -MT"FreeRTOS/event_groups.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/event_groups.o"
+arm-none-eabi-gcc "../FreeRTOS/queue.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/queue.d" -MT"FreeRTOS/queue.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/queue.o"
+arm-none-eabi-gcc "../FreeRTOS/stream_buffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/stream_buffer.d" -MT"FreeRTOS/stream_buffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/stream_buffer.o"
+arm-none-eabi-gcc "../FreeRTOS/tasks.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/tasks.d" -MT"FreeRTOS/tasks.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/tasks.o"
+arm-none-eabi-gcc "../FreeRTOS/timers.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/timers.d" -MT"FreeRTOS/timers.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/timers.o"
+../FreeRTOS/tasks.c: In function 'print_pcb':
+../FreeRTOS/tasks.c:436:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:42:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   41 | #include "stack_macros.h"
+  +++ |+#include <stdio.h>
+   42 | 
+../FreeRTOS/tasks.c:436:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:436:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../FreeRTOS/tasks.c:436:55: warning: format '%lx' expects argument of type 'long unsigned int', but argument 6 has type 'StackType_t *' {aka 'long unsigned int *'} [-Wformat=]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                   ~~~~^                                                                    ~~~~~~~~~~
+      |                                                       |                                                                     |
+      |                                                       long unsigned int                                                     StackType_t * {aka long unsigned int *}
+      |                                                   %-9ln
+../FreeRTOS/tasks.c:436:64: warning: format '%lx' expects argument of type 'long unsigned int', but argument 7 has type 'volatile StackType_t *' {aka 'volatile long unsigned int *'} [-Wformat=]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                           ~~~~~^                                                                       ~~~~~~~~~~~~~~~
+      |                                                                |                                                                        |
+      |                                                                long unsigned int                                                        volatile StackType_t * {aka volatile long unsigned int *}
+      |                                                           %-14ln
+../FreeRTOS/tasks.c: In function 'Taskmonitor':
+../FreeRTOS/tasks.c:450:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  450 |         sprintf(Monitor_data,"|Name |Priority(Base/actual)      |pxStack |pxTopOfStack      |State |\n\r");
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:450:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  10828	     12	   2052	  12892	   325c	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+17:42:47 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+17:42:48 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+17:42:49 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  10828	     12	   2052	  12892	   325c	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+17:53:33 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+17:53:34 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+17:53:36 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:96:15: error: 'TaskMonitor_App' undeclared (first use in this function); did you mean 'Taskmonitor'?
+   96 |   xTaskCreate(TaskMonitor_App, "TaskMonitor_App", 256, NULL, 3, &xHandle);
+      |               ^~~~~~~~~~~~~~~
+      |               Taskmonitor
+../Core/Src/main.c:96:15: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:96:66: error: 'xHandle' undeclared (first use in this function)
+   96 |   xTaskCreate(TaskMonitor_App, "TaskMonitor_App", 256, NULL, 3, &xHandle);
+      |                                                                  ^~~~~~~
+../Core/Src/main.c:97:15: error: 'Red_LED_App' undeclared (first use in this function); did you mean 'Red_LED_Pin'?
+   97 |   xTaskCreate(Red_LED_App, "Red_LED_App", 128, NULL, 1, &xHandle);
+      |               ^~~~~~~~~~~
+      |               Red_LED_Pin
+../Core/Src/main.c:98:15: error: 'Green_LED_App' undeclared (first use in this function); did you mean 'Green_LED_Pin'?
+   98 |   xTaskCreate(Green_LED_App, "Green_LED_App", 128, NULL, 1, &xHandle);
+      |               ^~~~~~~~~~~~~
+      |               Green_LED_Pin
+../Core/Src/main.c:99:15: error: 'Delay_App' undeclared (first use in this function)
+   99 |   xTaskCreate(Delay_App, "Delay_App", 128, NULL, 14, &xHandle);
+      |               ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+17:54:57 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+17:54:58 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+17:54:59 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:66: error: 'xHandle' undeclared (first use in this function)
+  101 |   xTaskCreate(TaskMonitor_App, "TaskMonitor_App", 256, NULL, 3, &xHandle);
+      |                                                                  ^~~~~~~
+../Core/Src/main.c:101:66: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+17:55:29 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+17:55:30 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+17:55:30 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+17:56:50 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+17:59:05 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+18:00:37 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+18:00:43 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+18:00:59 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+18:01:56 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+18:01:58 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+18:01:58 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+18:02:03 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+18:04:09 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+18:04:10 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+18:04:11 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+18:04:18 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+18:19:02 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+18:19:04 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+18:19:05 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24224	     96	  79464	 103784	  19568	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+18:19:12 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24224	     96	  79464	 103784	  19568	lab_2.elf
+Finished building: default.size.stdout
+ 
+18:23:03 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+18:23:05 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+18:23:06 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:15: error: 'TaskMonitor_App' undeclared (first use in this function); did you mean 'Taskmonitor'?
+  101 |   xTaskCreate(TaskMonitor_App, "TaskMonitor_App", 256, NULL, 3, NULL);
+      |               ^~~~~~~~~~~~~~~
+      |               Taskmonitor
+../Core/Src/main.c:101:15: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:102:15: error: 'Red_LED_App' undeclared (first use in this function); did you mean 'Red_LED_Pin'?
+  102 |   xTaskCreate(Red_LED_App, "Red_LED_App", 128, NULL, 1, NULL);
+      |               ^~~~~~~~~~~
+      |               Red_LED_Pin
+../Core/Src/main.c:103:15: error: 'Green_LED_App' undeclared (first use in this function); did you mean 'Green_LED_Pin'?
+  103 |   xTaskCreate(Green_LED_App, "Green_LED_App", 128, NULL, 1, NULL);
+      |               ^~~~~~~~~~~~~
+      |               Green_LED_Pin
+../Core/Src/main.c:104:15: error: 'Delay_App' undeclared (first use in this function)
+  104 |   xTaskCreate(Delay_App, "Delay_App", 128, NULL, 14, NULL);
+      |               ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+18:27:54 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+18:27:56 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+18:27:57 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+18:28:04 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+18:40:43 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+18:40:45 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+18:40:46 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+18:40:53 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+18:41:58 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+18:41:59 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+18:42:00 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24144	     96	  79464	 103704	  19518	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+18:42:06 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24144	     96	  79464	 103704	  19518	lab_2.elf
+Finished building: default.size.stdout
+ 
+18:47:59 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+18:48:02 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+18:48:03 **** Clean-only build of configuration Debug for project lab_2 ****
+make -j8 clean 
+rm -rf ./FreeRTOS/portable/MemMang/heap_4.cyclo ./FreeRTOS/portable/MemMang/heap_4.d ./FreeRTOS/portable/MemMang/heap_4.o ./FreeRTOS/portable/MemMang/heap_4.su
+rm -rf ./FreeRTOS/portable/ARM_CM4F/port.cyclo ./FreeRTOS/portable/ARM_CM4F/port.d ./FreeRTOS/portable/ARM_CM4F/port.o ./FreeRTOS/portable/ARM_CM4F/port.su
+rm -rf ./FreeRTOS/croutine.cyclo ./FreeRTOS/croutine.d ./FreeRTOS/croutine.o ./FreeRTOS/croutine.su ./FreeRTOS/event_groups.cyclo ./FreeRTOS/event_groups.d ./FreeRTOS/event_groups.o ./FreeRTOS/event_groups.su ./FreeRTOS/list.cyclo ./FreeRTOS/list.d ./FreeRTOS/list.o ./FreeRTOS/list.su ./FreeRTOS/queue.cyclo ./FreeRTOS/queue.d ./FreeRTOS/queue.o ./FreeRTOS/queue.su ./FreeRTOS/stream_buffer.cyclo ./FreeRTOS/stream_buffer.d ./FreeRTOS/stream_buffer.o ./FreeRTOS/stream_buffer.su ./FreeRTOS/tasks.cyclo ./FreeRTOS/tasks.d ./FreeRTOS/tasks.o ./FreeRTOS/tasks.su ./FreeRTOS/timers.cyclo ./FreeRTOS/timers.d ./FreeRTOS/timers.o ./FreeRTOS/timers.su
+rm -rf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.su
+rm -rf ./Core/Startup/startup_stm32f407vgtx.d ./Core/Startup/startup_stm32f407vgtx.o
+rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f4xx_hal_msp.cyclo ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_hal_msp.su ./Core/Src/stm32f4xx_hal_timebase_tim.cyclo ./Core/Src/stm32f4xx_hal_timebase_tim.d ./Core/Src/stm32f4xx_hal_timebase_tim.o ./Core/Src/stm32f4xx_hal_timebase_tim.su ./Core/Src/stm32f4xx_it.cyclo ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/stm32f4xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f4xx.cyclo ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/system_stm32f4xx.su
+rm -rf default.size.stdout lab_2.elf lab_2.list lab_2.map
+ 
+18:48:04 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../FreeRTOS/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/MemMang/heap_4.d" -MT"FreeRTOS/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../FreeRTOS/portable/ARM_CM4F/port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/ARM_CM4F/port.d" -MT"FreeRTOS/portable/ARM_CM4F/port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/ARM_CM4F/port.o"
+arm-none-eabi-gcc "../FreeRTOS/croutine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/croutine.d" -MT"FreeRTOS/croutine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/croutine.o"
+arm-none-eabi-gcc "../FreeRTOS/event_groups.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/event_groups.d" -MT"FreeRTOS/event_groups.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/event_groups.o"
+arm-none-eabi-gcc "../FreeRTOS/list.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/list.d" -MT"FreeRTOS/list.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/list.o"
+arm-none-eabi-gcc "../FreeRTOS/queue.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/queue.d" -MT"FreeRTOS/queue.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/queue.o"
+arm-none-eabi-gcc "../FreeRTOS/stream_buffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/stream_buffer.d" -MT"FreeRTOS/stream_buffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/stream_buffer.o"
+arm-none-eabi-gcc "../FreeRTOS/tasks.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/tasks.d" -MT"FreeRTOS/tasks.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/tasks.o"
+../FreeRTOS/tasks.c: In function 'print_pcb':
+../FreeRTOS/tasks.c:436:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:42:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   41 | #include "stack_macros.h"
+  +++ |+#include <stdio.h>
+   42 | 
+../FreeRTOS/tasks.c:436:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:436:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../FreeRTOS/tasks.c:436:55: warning: format '%lx' expects argument of type 'long unsigned int', but argument 6 has type 'StackType_t *' {aka 'long unsigned int *'} [-Wformat=]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                   ~~~~^                                                                    ~~~~~~~~~~
+      |                                                       |                                                                     |
+      |                                                       long unsigned int                                                     StackType_t * {aka long unsigned int *}
+      |                                                   %-9ln
+../FreeRTOS/tasks.c:436:64: warning: format '%lx' expects argument of type 'long unsigned int', but argument 7 has type 'volatile StackType_t *' {aka 'volatile long unsigned int *'} [-Wformat=]
+  436 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                           ~~~~~^                                                                       ~~~~~~~~~~~~~~~
+      |                                                                |                                                                        |
+      |                                                                long unsigned int                                                        volatile StackType_t * {aka volatile long unsigned int *}
+      |                                                           %-14ln
+../FreeRTOS/tasks.c: In function 'Taskmonitor':
+../FreeRTOS/tasks.c:450:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  450 |         sprintf(Monitor_data,"|Name |Priority(Base/actual)      |pxStack |pxTopOfStack      |State |\n\r");
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:450:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc "../FreeRTOS/timers.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/timers.d" -MT"FreeRTOS/timers.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/timers.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f407vgtx.d" -MT"Core/Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f407vgtx.o" "../Core/Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_timebase_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_timebase_tim.d" -MT"Core/Src/stm32f4xx_hal_timebase_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_timebase_tim.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+18:48:16 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+18:50:05 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+18:50:06 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+18:50:07 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+18:50:13 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24128	     96	  79464	 103688	  19508	lab_2.elf
+Finished building: default.size.stdout
+ 
+21:54:07 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+21:54:10 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+21:54:11 **** Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../FreeRTOS/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/MemMang/heap_4.d" -MT"FreeRTOS/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../FreeRTOS/portable/ARM_CM4F/port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/ARM_CM4F/port.d" -MT"FreeRTOS/portable/ARM_CM4F/port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/ARM_CM4F/port.o"
+arm-none-eabi-gcc "../FreeRTOS/croutine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/croutine.d" -MT"FreeRTOS/croutine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/croutine.o"
+arm-none-eabi-gcc "../FreeRTOS/event_groups.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/event_groups.d" -MT"FreeRTOS/event_groups.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/event_groups.o"
+arm-none-eabi-gcc "../FreeRTOS/list.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/list.d" -MT"FreeRTOS/list.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/list.o"
+arm-none-eabi-gcc "../FreeRTOS/queue.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/queue.d" -MT"FreeRTOS/queue.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/queue.o"
+arm-none-eabi-gcc "../FreeRTOS/stream_buffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/stream_buffer.d" -MT"FreeRTOS/stream_buffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/stream_buffer.o"
+arm-none-eabi-gcc "../FreeRTOS/tasks.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/tasks.d" -MT"FreeRTOS/tasks.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/tasks.o"
+arm-none-eabi-gcc "../FreeRTOS/timers.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/timers.d" -MT"FreeRTOS/timers.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/timers.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f407vgtx.d" -MT"Core/Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f407vgtx.o" "../Core/Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_timebase_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_timebase_tim.d" -MT"Core/Src/stm32f4xx_hal_timebase_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_timebase_tim.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+../Core/Src/main.c: In function 'Green_LED_App':
+../Core/Src/main.c:136:9: error: unknown type name 'uint32_tG'; did you mean 'uint32_t'?
+  136 |         uint32_tG reentimer = 1000;
+      |         ^~~~~~~~~
+      |         uint32_t
+../Core/Src/main.c:139:28: error: 'Greentimer' undeclared (first use in this function); did you mean 'reentimer'?
+  139 |                 vTaskDelay(Greentimer);
+      |                            ^~~~~~~~~~
+      |                            reentimer
+../Core/Src/main.c:139:28: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:136:19: warning: unused variable 'reentimer' [-Wunused-variable]
+  136 |         uint32_tG reentimer = 1000;
+      |                   ^~~~~~~~~
+../Core/Src/main.c: In function 'Delay_App':
+../Core/Src/main.c:146:18: warning: unused variable 'delaytime' [-Wunused-variable]
+  146 |         uint32_t delaytime;
+      |                  ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+21:58:50 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+21:58:52 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+21:58:54 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../FreeRTOS/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/MemMang/heap_4.d" -MT"FreeRTOS/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../FreeRTOS/portable/ARM_CM4F/port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/portable/ARM_CM4F/port.d" -MT"FreeRTOS/portable/ARM_CM4F/port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/portable/ARM_CM4F/port.o"
+arm-none-eabi-gcc "../FreeRTOS/croutine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/croutine.d" -MT"FreeRTOS/croutine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/croutine.o"
+arm-none-eabi-gcc "../FreeRTOS/event_groups.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/event_groups.d" -MT"FreeRTOS/event_groups.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/event_groups.o"
+arm-none-eabi-gcc "../FreeRTOS/list.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/list.d" -MT"FreeRTOS/list.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/list.o"
+arm-none-eabi-gcc "../FreeRTOS/queue.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/queue.d" -MT"FreeRTOS/queue.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/queue.o"
+arm-none-eabi-gcc "../FreeRTOS/stream_buffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/stream_buffer.d" -MT"FreeRTOS/stream_buffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/stream_buffer.o"
+arm-none-eabi-gcc "../FreeRTOS/tasks.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/tasks.d" -MT"FreeRTOS/tasks.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/tasks.o"
+../FreeRTOS/tasks.c: In function 'print_pcb':
+../FreeRTOS/tasks.c:5220:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+arm-none-eabi-gcc "../FreeRTOS/timers.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/timers.d" -MT"FreeRTOS/timers.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/timers.o"
+ 5220 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../FreeRTOS/tasks.c:42:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   41 | #include "stack_macros.h"
+  +++ |+#include <stdio.h>
+   42 | 
+../FreeRTOS/tasks.c:5220:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+ 5220 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:5220:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../FreeRTOS/tasks.c:5220:55: warning: format '%lx' expects argument of type 'long unsigned int', but argument 6 has type 'StackType_t *' {aka 'long unsigned int *'} [-Wformat=]
+ 5220 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                   ~~~~^                                                                    ~~~~~~~~~~
+      |                                                       |                                                                     |
+      |                                                       long unsigned int                                                     StackType_t * {aka long unsigned int *}
+      |                                                   %-9ln
+../FreeRTOS/tasks.c:5220:64: warning: format '%lx' expects argument of type 'long unsigned int', but argument 7 has type 'volatile StackType_t *' {aka 'volatile long unsigned int *'} [-Wformat=]
+ 5220 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                           ~~~~~^                                                                       ~~~~~~~~~~~~~~~
+      |                                                                |                                                                        |
+      |                                                                long unsigned int                                                        volatile StackType_t * {aka volatile long unsigned int *}
+      |                                                           %-14ln
+../FreeRTOS/tasks.c: In function 'Taskmonitor':
+../FreeRTOS/tasks.c:5238:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+ 5238 |         sprintf(Monitor_data,"|Name |Priority(Base/actual)                |pxStack |pxTopOfStack      |State |\n\r");
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:5238:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+../Core/Src/main.c: In function 'Delay_App':
+../Core/Src/main.c:146:18: warning: unused variable 'delaytime' [-Wunused-variable]
+  146 |         uint32_t delaytime;
+      |                  ^~~~~~~~~
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./FreeRTOS/portable/ARM_CM4F/port.o: in function `SVC_Handler':
+D:/LSJ_embeded system/workspace/lab_2/Debug/../FreeRTOS/portable/ARM_CM4F/port.c:244: multiple definition of `SVC_Handler'; ./Core/Src/stm32f4xx_it.o:D:/LSJ_embeded system/workspace/lab_2/Debug/../Core/Src/stm32f4xx_it.c:146: first defined here
+C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./FreeRTOS/portable/ARM_CM4F/port.o: in function `PendSV_Handler':
+D:/LSJ_embeded system/workspace/lab_2/Debug/../FreeRTOS/portable/ARM_CM4F/port.c:435: multiple definition of `PendSV_Handler'; ./Core/Src/stm32f4xx_it.o:D:/LSJ_embeded system/workspace/lab_2/Debug/../Core/Src/stm32f4xx_it.c:172: first defined here
+C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./FreeRTOS/portable/ARM_CM4F/port.o: in function `SysTick_Handler':
+D:/LSJ_embeded system/workspace/lab_2/Debug/../FreeRTOS/portable/ARM_CM4F/port.c:489: multiple definition of `SysTick_Handler'; ./Core/Src/stm32f4xx_it.o:D:/LSJ_embeded system/workspace/lab_2/Debug/../Core/Src/stm32f4xx_it.c:185: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:67: lab_2.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+21:59:33 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+21:59:35 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+21:59:36 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24112	     96	  79464	 103672	  194f8	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+22:00:23 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+22:01:10 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+22:01:11 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+22:01:11 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24112	     96	  79464	 103672	  194f8	lab_2.elf
+Finished building: default.size.stdout
+ 
+22:01:47 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24112	     96	  79464	 103672	  194f8	lab_2.elf
+Finished building: default.size.stdout
+ 
+22:04:03 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+22:04:05 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+22:04:06 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24112	     96	  79464	 103672	  194f8	lab_2.elf
+Finished building: default.size.stdout
+ 
+22:07:36 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+22:07:38 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+22:07:39 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../FreeRTOS/tasks.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"FreeRTOS/tasks.d" -MT"FreeRTOS/tasks.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FreeRTOS/tasks.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'Delay_App':
+../Core/Src/main.c:146:18: warning: unused variable 'delaytime' [-Wunused-variable]
+  146 |         uint32_t delaytime;
+      |                  ^~~~~~~~~
+../FreeRTOS/tasks.c: In function 'print_pcb':
+../FreeRTOS/tasks.c:5220:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+ 5220 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:42:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   41 | #include "stack_macros.h"
+  +++ |+#include <stdio.h>
+   42 | 
+../FreeRTOS/tasks.c:5220:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+ 5220 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:5220:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../FreeRTOS/tasks.c:5220:55: warning: format '%lx' expects argument of type 'long unsigned int', but argument 6 has type 'StackType_t *' {aka 'long unsigned int *'} [-Wformat=]
+ 5220 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                   ~~~~^                                                                    ~~~~~~~~~~
+      |                                                       |                                                                     |
+      |                                                       long unsigned int                                                     StackType_t * {aka long unsigned int *}
+      |                                                   %-9ln
+../FreeRTOS/tasks.c:5220:64: warning: format '%lx' expects argument of type 'long unsigned int', but argument 7 has type 'volatile StackType_t *' {aka 'volatile long unsigned int *'} [-Wformat=]
+ 5220 |         sprintf(Monitor_data,"%-19s %3lu/%-19lu 0x%-9lx 0x%-14lx %s\n\r", t->pcTaskName, t->uxPriority, t->uxBasePriority, t->pxStack, t->pxTopOfStack, state);
+      |                                                           ~~~~~^                                                                       ~~~~~~~~~~~~~~~
+      |                                                                |                                                                        |
+      |                                                                long unsigned int                                                        volatile StackType_t * {aka volatile long unsigned int *}
+      |                                                           %-14ln
+../FreeRTOS/tasks.c: In function 'Taskmonitor':
+../FreeRTOS/tasks.c:5238:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+ 5238 |         sprintf(Monitor_data,"|Name |Priority(Base/actual)                |pxStack |pxTopOfStack      |State |\n\r");
+      |         ^~~~~~~
+../FreeRTOS/tasks.c:5238:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24112	     96	  79464	 103672	  194f8	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+22:08:29 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+22:08:31 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+22:08:32 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'Delay_App':
+../Core/Src/main.c:147:18: warning: unused variable 'delaytime' [-Wunused-variable]
+  147 |         uint32_t delaytime;
+      |                  ^~~~~~~~~
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24112	     96	  79464	 103672	  194f8	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+22:09:45 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+22:09:47 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+22:09:48 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24144	     96	  79464	 103704	  19518	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+22:09:55 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24144	     96	  79464	 103704	  19518	lab_2.elf
+Finished building: default.size.stdout
+ 
+22:12:49 **** Incremental Build of configuration Debug for project lab_0 ****
+make -j8 all 
+arm-none-eabi-size  lab_0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18200	     16	  78864	  97080	  17b38	lab_0.elf
+Finished building: default.size.stdout
+ 
+22:12:51 **** Incremental Build of configuration Debug for project lab_1 ****
+make -j8 all 
+arm-none-eabi-size  lab_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     16	  78864	  97580	  17d2c	lab_1.elf
+Finished building: default.size.stdout
+ 
+22:12:52 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/include" -I"D:/LSJ_embeded system/workspace/lab_2/FreeRTOS/portable/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "lab_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\LSJ_embeded system\workspace\lab_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab_2.elf
+ 
+arm-none-eabi-size  lab_2.elf 
+arm-none-eabi-objdump -h -S lab_2.elf  > "lab_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24144	     96	  79464	 103704	  19518	lab_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab_2.list
+ 
+22:13:30 **** Incremental Build of configuration Debug for project lab_2 ****
+make -j8 all 
+arm-none-eabi-size  lab_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24144	     96	  79464	 103704	  19518	lab_2.elf
+Finished building: default.size.stdout
+ 
