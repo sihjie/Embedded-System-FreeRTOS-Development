@@ -3,6 +3,10 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="GPIO_PIN_12"/>
+		<item value="vprint"/>
+		<item value="BlockSize"/>
+		<item value="TCB_t *pxNewTCB"/>
 		<item value="CS_I2C_SPI_GPIO_Port"/>
 		<item value="Queue"/>
 	</list>
