@@ -1,4 +1,22 @@
 ## Lab 2: TaskMonitor
+In this lab, four tasks are created:
+* Red_LED_App
+* Green_LED_App
+* Delay_App
+* TaskMonitor_App – periodically executes TaskMonitor()
+
+TaskMonitor() runs periodically and performs:
+* Traverse Task Lists
+* ReadyTaskList
+* DelayedTaskList
+* OverflowDelayedTaskList
+
+Output **TCB Information** via UART
+* Task Name
+* Priority (Base / Actual)
+* Stack Pointer
+* Top of Stack Pointer
+* Task State
 
 ---
 ### HackMD
