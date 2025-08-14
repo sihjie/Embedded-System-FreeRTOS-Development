@@ -30,8 +30,3 @@ I documented my learning process and key takeaways in a series of HackMD notes, 
 ### Demo Video
 https://github.com/user-attachments/assets/6e3e09f9-1d87-4aef-be7b-a8379e1cdd38
 
-
-
-
-https://github.com/user-attachments/assets/a0e6d244-1d2a-4bc1-a3f8-47bced38dbf4
-
