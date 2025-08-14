@@ -1,4 +1,4 @@
-## Lab 2: Environment Setup and Board Familiarization
+## Lab 2: TaskMonitor
 
 ---
 ### HackMD
