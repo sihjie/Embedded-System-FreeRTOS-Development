@@ -6,6 +6,4 @@ I documented my learning process and key takeaways in a series of HackMD notes, 
 
 ---
 ### Demo Video
-
-https://github.com/user-attachments/assets/6a600bbc-393d-4913-b3de-c190a86fbecd
-
+https://github.com/user-attachments/assets/a11941ae-32b0-4f62-a63e-c25cef66c6d8
