@@ -6,5 +6,6 @@ I documented my learning process and key takeaways in a series of HackMD notes, 
 
 ---
 ### Demo Video
-Uploading workspace - lab_2_Core_Src_main.c - STM32CubeIDE 2025-03-27 22-15-33.mp4…
+
+https://github.com/user-attachments/assets/6a600bbc-393d-4913-b3de-c190a86fbecd
 
