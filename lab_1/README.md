@@ -2,19 +2,19 @@
 [Lab1.pdf](https://github.com/user-attachments/files/21773873/Lab1.pdf)
 
 This lab requires a button to toggle between two states of the LED task:
-#### 1. LED Task
+### 1. LED Task
 The LED task has two states:
-**S1** (Sequential Switching Mode):
-- Red LED on for 1 second (others off)
-- Orange LED on for 1 second (Red off)
-- Green LED on for 1 second (Red and Orange off)
+#### S1 (Sequential Switching Mode):
+  - Red LED on for 1 second (others off)
+  - Orange LED on for 1 second (Red off)
+  - Green LED on for 1 second (Red and Orange off)
 
-Repeats in sequence: Red → Orange → Green
+  Repeats in sequence: Red → Orange → Green
 
-**S2** (Orange Blinking Mode):
-Orange LED on for 2 seconds, off for 2 seconds, repeating continuously
+#### S2 (Orange Blinking Mode):
+  Orange LED on for 2 seconds, off for 2 seconds, repeating continuously
 
-#### 2. Button Task
+### 2. Button Task
 When the button is pressed, the LED task switches state: 
 - S1 → S2
 - S2 → S1 (can be extended if needed)
