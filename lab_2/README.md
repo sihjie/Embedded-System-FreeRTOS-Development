@@ -1,4 +1,6 @@
 ## Lab 2: TaskMonitor
+[嵌入式_Lab2_2025.pdf](https://github.com/user-attachments/files/21773617/_Lab2_2025.pdf)
+
 In this lab, four tasks are created:
 * Red_LED_App
 * Green_LED_App
