@@ -1,4 +1,4 @@
-# Lab 1：MultiTask, with Inter-Task Communication (ITC) Mechanism
+# Lab 1: MultiTask, with Inter-Task Communication (ITC) Mechanism
 [Lab1.pdf](https://github.com/user-attachments/files/21773873/Lab1.pdf)
 
 This lab requires a button to toggle between two states of the LED task:
