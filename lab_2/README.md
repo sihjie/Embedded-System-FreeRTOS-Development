@@ -1,4 +1,4 @@
-## Lab 2: TaskMonitor
+# Lab 2：Task Monitor
 [嵌入式_Lab2_2025.pdf](https://github.com/user-attachments/files/21773617/_Lab2_2025.pdf)
 
 In this lab, four tasks are created:
