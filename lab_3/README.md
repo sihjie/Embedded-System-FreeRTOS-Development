@@ -10,9 +10,12 @@
 - When orange LED blinking, you should not trigger the sensor interrupt if you shake the board.
 - LEDs and Their Corresponding Pins
   - <img width="283" height="80" alt="image" src="https://github.com/user-attachments/assets/ed0676ea-63f7-4e1b-a3b1-eaaec336691a" />
+
 ---
-### HackMD
+
+### HackMD 
 I documented my learning process and key takeaways in a series of HackMD notes, available [here](https://hackmd.io/@GDIF3DlmRBa7hCk6nQfzkQ/BkFXjqhOle).
+
 ---
 ### Demo Video
 https://github.com/user-attachments/assets/733dadf0-1f02-4526-9d14-ba2419b98c4a
