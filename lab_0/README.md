@@ -1,4 +1,4 @@
-# Lab 0：Environment Setup and Board Familiarization
+# Lab 0: Environment Setup and Board Familiarization
 [lab0_2025.pdf](https://github.com/user-attachments/files/21773768/lab0_2025.pdf)
 
 This lab serves as an introduction to the embedded systems development environment. The main objectives include:
