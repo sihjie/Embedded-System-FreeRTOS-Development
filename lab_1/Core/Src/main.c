@@ -115,28 +115,6 @@ int main(void)
   /* USER CODE END 3 */
 }
 
-//void ButtonTask_App(void)
-//{
-//	unsigned int state = 0;
-//		unsigned int count = 0;
-//		for(;;)
-//		{
-//			if(HAL_GPIO_ReadPin(BLUE_BUTTON_GPIO_Port, GPIO_PIN_0))
-//			{
-//				HAL_Delay(100);//debounce
-//
-//				while(HAL_GPIO_ReadPin(BLUE_BUTTON_GPIO_Port, GPIO_PIN_0))
-//				{;}
-//				++count ;
-//				if(count & 0x01)
-//					state = 1;
-//				else
-//					state = 0;
-//				xQueueSend(MsgQueue,(int * ) &state,1);
-//				taskYIELD();
-//			}
-//		}
-//}
 void ButtonTask_App(void *pvParameters){
 	unsigned int state = 0;
 	unsigned int count = 0;

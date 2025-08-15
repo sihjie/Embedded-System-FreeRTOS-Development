@@ -5240,7 +5240,7 @@ void Taskmonitor(void)
 
 	ListItem_t *node;
 	/* pxReadyTasksLists */
-	for(int i=0;i<15;i++){
+	for(int i=0;i<configMAX_PRIORITIES;i++){
 		node = listGET_HEAD_ENTRY(pxReadyTasksLists + i);
 		for(uint32_t j=0;j<listCURRENT_LIST_LENGTH(pxReadyTasksLists + i);j++){
 			print_pcb(listGET_LIST_ITEM_OWNER(node), "Ready");
