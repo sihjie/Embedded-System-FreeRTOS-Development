@@ -6,7 +6,7 @@
 
 **Implementation details**
 - When the blue button is pressed, an interrupt will be triggered, executing the callback function and notifying the button task.
-- Inside the button task, the function GetButtonEvent() will be used, which returns whether the user’s action is a single click, double click, or long press. The missing part needs to be implemented to complete this judgment.
+- When the button is pressed, the state will switch, allowing the user to control song playback through the button.
 - State transition diagram:
   <img width="812" height="465" alt="image" src="https://github.com/user-attachments/assets/4a939757-2fa4-41fd-bd51-09306dccf31a" />
 
